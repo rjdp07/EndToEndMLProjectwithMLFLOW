@@ -39,9 +39,9 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     
 
 @ensure_annotations
-def create_directories(path_to_direcrtories: list, verbose: True):
+def create_directories(path_to_direcrtories: list, verbose=True):
     """create list of directories
-    
+
     Args:
         path_to_directories (list): list of path of directories
         ignore_log (bool, optional): ignore if multiple dirs is to be created. Defaults to False.
